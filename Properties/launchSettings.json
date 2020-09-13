@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConsoleChat": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    },
+    "Server": {
+      "commandName": "Executable"
+    }
+  }
+}

@@ -3,11 +3,11 @@ using System.IO;
 using System;
 namespace ConsoleChat
 {
-    class Program
+    class Start
     {
         static void Main(string[] args)
         {
-            new ServerChat().start();
+            new ServerChat().Start();
         }
     }
 }

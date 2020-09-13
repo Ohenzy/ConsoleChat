@@ -14,6 +14,6 @@ namespace ConsoleChat.Chat.Models
         }
 
         public string GetMessage() { return this.message; }
-        public DateTime GetDateMessage() { return this.dateCreated; }
+        public string GetTimeMessage() { return "(" + dateCreated.Hour + ":" + dateCreated.Minute + ":" + dateCreated.Second + ") "; }
     }
 }
